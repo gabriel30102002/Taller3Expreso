@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/styles.css">
+
+    <!-- DataTables CSS -->
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css">
+</head>
+<body>
+    <%- include('partials/header') %>
+    <div class="container">
+        <h2>Pedido</h2>
+        <table id="example" class="display" style="width:100%">
+            <thead>
+                <tr>
+                    <th>id</th>
+                    <th>cliente_id</th>
+                    <th>fecha</th>
+                    <th>Estado</th>
+                    <th>createdAt</th>
+                    <th>updatedAt</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>null</td>
+                    <td>'2024-07-13 02:54:49'</td>
+                    <td>1</td>
+                    <td>2024-07-13 02:54:49</td>
+                    <td>2024-07-13 02:54:49</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>null</td>
+                    <td>'2024-07-13 02:54:49'</td>
+                    <td>1</td>
+                    <td>2024-07-13 02:54:49</td>
+                    <td>2024-07-13 02:54:49</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>null</td>
+                    <td>'2024-07-13 02:54:49'</td>
+                    <td>1</td>
+                    <td>2024-07-13 02:54:49</td>
+                    <td>2024-07-13 02:54:49</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>null</td>
+                    <td>'2024-07-13 02:54:49'</td>
+                    <td>1</td>
+                    <td>2024-07-13 02:54:49</td>
+                    <td>2024-07-13 02:54:49</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>null</td>
+                    <td>'2024-07-13 02:54:49'</td>
+                    <td>1</td>
+                    <td>2024-07-13 02:54:49</td>
+                    <td>2024-07-13 02:54:49</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>null</td>
+                    <td>'2024-07-13 02:54:49'</td>
+                    <td>1</td>
+                    <td>2024-07-13 02:54:49</td>
+                    <td>2024-07-13 02:54:49</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>null</td>
+                    <td>'2024-07-13 02:54:49'</td>
+                    <td>1</td>
+                    <td>2024-07-13 02:54:49</td>
+                    <td>2024-07-13 02:54:49</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>null</td>
+                    <td>'2024-07-13 02:54:49'</td>
+                    <td>1</td>
+                    <td>2024-07-13 02:54:49</td>
+                    <td>2024-07-13 02:54:49</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>null</td>
+                    <td>'2024-07-13 02:54:49'</td>
+                    <td>1</td>
+                    <td>2024-07-13 02:54:49</td>
+                    <td>2024-07-13 02:54:49</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>null</td>
+                    <td>'2024-07-13 02:54:49'</td>
+                    <td>1</td>
+                    <td>2024-07-13 02:54:49</td>
+                    <td>2024-07-13 02:54:49</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#example').DataTable();
+        });
+    </script>
+</body>
+</html>
